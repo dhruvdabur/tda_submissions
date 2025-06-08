@@ -1,81 +1,68 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dhruv Dabur | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body class="dark-mode">
-  <div class="profile-photo">
-    <img src="profile.jpg" alt="Dhruv Dabur Profile Photo" />
-  </div>
+/* style.css - Dark Mode Theme */
 
-  <header>
-    <div class="container header-text">
-      <h1>Dhruv Dabur</h1>
-      <p>Innovator | Technophile | Future-Ready Engineer</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Hello! I'm Dhruv Dabur, an engineering enthusiast with a passion for innovation, sustainability, and future-forward technologies. I enjoy solving real-world problems through tech—be it through AI-driven education tools or bio-solutions for agriculture.</p>
-    </div>
-  </section>
+header, section, footer {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Smart AI Classes</strong> – ATL Marathon finalist project tackling school inefficiencies with AI & noise monitoring.</li>
-        <li><strong>Bio-Fertilizer from Eutrophic Water</strong> – Developed cost-effective fertilizer from polluted water & algae.</li>
-        <li><strong>EnviroSense</strong> – SIH 2024 hardware solution for chemical strips to monitor vaccines & goods during transport.</li>
-        <li><strong>WhatsApp Cab Booking Bot</strong> – Node.js-based chatbot for booking cabs via WhatsApp.</li>
-      </ul>
-    </div>
-  </section>
+h1, h2 {
+  color: #bb86fc;
+}
 
-  <section id="experience">
-    <div class="container">
-      <h2>Experience</h2>
-      <ul>
-        <li><strong>Embedded Software Intern</strong> – Fracktal Works Pvt Ltd</li>
-        <li><strong>IBM Intern</strong> – Worked on system optimization and automation (2020–2021)</li>
-        <li><strong>ATL Ambassador</strong> – Led 10+ innovation teams, conducted 30+ educational workshops</li>
-      </ul>
-    </div>
-  </section>
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+  border: 3px solid #bb86fc;
+}
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:daburdhruv6@gmail.com">daburdhruv6@gmail.com</a></p>
-      <p>Phone: <a href="tel:+917017708093">+91 7017708093</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/dhruvdabur/" target="_blank">dhruvdabur</a></p>
-    </div>
-  </section>
+ul, ol {
+  margin-left: 20px;
+}
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Dhruv Dabur. All rights reserved.</p>
-    </div>
-  </footer>
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #252525;
+  color: #e0e0e0;
+}
 
-  <script>
-    window.addEventListener("scroll", () => {
-      const scrollY = window.scrollY;
-      const image = document.querySelector(".profile-photo img");
-      image.style.transform = `rotate(${scrollY * 0.2}deg)`;
-    });
-  </script>
-</body>
-</html>
+table, th, td {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
