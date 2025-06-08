@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhruv Dabur | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+  <div class="profile-photo">
+    <img src="profile.jpg" alt="Dhruv Dabur Profile Photo" />
+  </div>
+
+  <header>
+    <div class="container header-text">
+      <h1>Dhruv Dabur</h1>
+      <p>Innovator | Technophile | Future-Ready Engineer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm Dhruv Dabur, an engineering enthusiast with a passion for innovation, sustainability, and future-forward technologies. I enjoy solving real-world problems through tech—be it through AI-driven education tools or bio-solutions for agriculture.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Smart AI Classes</strong> – ATL Marathon finalist project tackling school inefficiencies with AI & noise monitoring.</li>
+        <li><strong>Bio-Fertilizer from Eutrophic Water</strong> – Developed cost-effective fertilizer from polluted water & algae.</li>
+        <li><strong>EnviroSense</strong> – SIH 2024 hardware solution for chemical strips to monitor vaccines & goods during transport.</li>
+        <li><strong>WhatsApp Cab Booking Bot</strong> – Node.js-based chatbot for booking cabs via WhatsApp.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Embedded Software Intern</strong> – Fracktal Works Pvt Ltd</li>
+        <li><strong>IBM Intern</strong> – Worked on system optimization and automation (2020–2021)</li>
+        <li><strong>ATL Ambassador</strong> – Led 10+ innovation teams, conducted 30+ educational workshops</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:daburdhruv6@gmail.com">daburdhruv6@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917017708093">+91 7017708093</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/dhruvdabur/" target="_blank">dhruvdabur</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Dhruv Dabur. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+      const image = document.querySelector(".profile-photo img");
+      image.style.transform = `rotate(${scrollY * 0.2}deg)`;
+    });
+  </script>
+</body>
+</html>
