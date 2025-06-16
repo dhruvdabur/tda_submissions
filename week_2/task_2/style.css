@@ -1,0 +1,34 @@
+body{
+    background-color: lightblue;
+    height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+}
+
+.grid-container{
+
+    background-color: rgb(42, 81, 200);
+    border-radius: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: repeat(3, 1fr);;
+    grid-template-rows: repeat(2, 200px);  ;
+    grid-gap: 6px;
+
+    width: 600px; 
+  height: auto; 
+  padding: 10px;
+}
+
+.card{
+    height: 50px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

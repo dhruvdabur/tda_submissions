@@ -1,0 +1,46 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e7eb; /* Tailwind's gray-200 */
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+/* Navbar Styles */
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937; /* Tailwind's gray-800 */
+  color: white;
+  padding: 1rem;
+}
+
+/* Card Wrapper to center the card */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 64px); /* Full height minus navbar */
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  text-align: center;
+}
+
+/* Card Content */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #4b5563; /* Tailwind's gray-600 */
+}
